@@ -4,9 +4,12 @@ import MenuButton from './components/MenuButton';
 import Title from './components/Title';
 import Subtitle from './components/Subtitle';
 import Button from './components/Button';
+
+//Section2 using map
 import Section2 from './components/Section2';
 
-import Section2Props from './components/Section2-using-props';
+//Section2 using props
+import Section2Props from './components/Section2Props';
 import icon1 from "./images/icon1.png";
 import icon2 from "./images/icon2.png";
 import icon3 from "./images/icon3.png";
@@ -35,7 +38,6 @@ let data = [
 ];
 
 function App() {
-  console.log(data)
   return (
     <>
       <div className='navbar'>
@@ -47,7 +49,11 @@ function App() {
         <Subtitle />
         <Button />
       </section>
+
+      {/*Section2 using map*/}
       <Section2 />
+
+      {/*Section2 using props*/}
       <div className="light-large-container">
         <Section2Props data = {data[0]} />
         <Section2Props data = {data[1]} />
