@@ -1,10 +1,10 @@
 import './App.css';
-import Logo from './Logo';
-import MenuButton from './MenuButton';
-import Title from './Title';
-import Subtitle from './Subtitle';
-import Button from './Button';
-import Section2 from './Section2';
+import Logo from './components/Logo';
+import MenuButton from './components/MenuButton';
+import Title from './components/Title';
+import Subtitle from './components/Subtitle';
+import Button from './components/Button';
+import Section2 from './components/Section2';
 
 function App() {
   return (
